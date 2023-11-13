@@ -1,20 +1,14 @@
 import random
-
-
 def rand_int(min, max):
     """
     Return Random integer within min and max.
     """
     return random.randint(min, max)
-
-
 def rand_optr():
     """
     Return random operator
     """
     return random.choice(['+', '-', '*'])
-
-
 def do_operation(num1, num2, optr):
     """
     perform operation on num1,num2 using operator
